@@ -5,5 +5,7 @@ The ingesting data from a REST API is based on the method demostrated in the rep
 
 In this sample project I have slightly extended this technique by adding pagination to the calling API. This is a neccesarry addition as most producition API's has a upper limit on the data payload being sent over the internet and provides a facility to itteratively call additional pages until all data is extracted. This sample makes use of the Rick & Morty REST API to demonstrate this feature.
 
+The helper functions for starting the spark session and loggin has been adopted from the repo https://github.com/AlexIoannides/pyspark-example-project. 
+
 ## Project Structure
-The project is structured to allow running ad-hoc scripts like notebooks as well as enabling for DevOps CI/CD integration with modularised python folders and files. 
+The project is structured to allow running scripts and notebooks as well as enabling for DevOps CI/CD integration with modularised python folders and files. 
