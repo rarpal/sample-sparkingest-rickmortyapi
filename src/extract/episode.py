@@ -25,10 +25,9 @@ def extract_data(spark):
     results_df = request_df.select(explode(col("execute")).alias("results")).select(
                     col("results.id").alias("id"),
                     col("results.name").alias("name"),
-                    col("results.status").alias("status"),
-                    col("results.species").alias("species"),
-                    col("results.type").alias("type"),
-                    col("results.gender").alias("gender"),
+                    col("results.air_date").alias("air_date"),
+                    col("results.episode").alias("episode"),
+                    col("results.url").alias("url"),
                     col("results.created").alias("created")
                     )
     
