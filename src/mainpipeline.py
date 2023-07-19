@@ -22,3 +22,10 @@ def main():
     extract.character.extract_data(spark)
     extract.episode.extract_data(spark)
     extract.location.extract_data(spark)
+
+
+    return None
+
+# entry point for PySpark ETL application
+if __name__ == '__main__':
+    main()
