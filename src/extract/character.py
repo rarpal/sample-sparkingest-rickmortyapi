@@ -34,3 +34,5 @@ def extract_data(spark):
                     )
     
     # write to data lake
+    #results_df.write.parquet("file://../stored_data/extract/character.parquet")
+    results_df.write.mode("overwrite").parquet("C:\\PalProjects\\sample-sparkingest-rickmortyapi\\stored_data\\extract\\character.parquet")

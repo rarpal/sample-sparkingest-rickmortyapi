@@ -32,3 +32,4 @@ def extract_data(spark):
                     )
     
     # write to data lake
+    results_df.write.parquet("C:\\PalProjects\\sample-sparkingest-rickmortyapi\\stored_data\\extract\\location.parquet")
