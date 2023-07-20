@@ -1,16 +1,19 @@
 ## Python stuff
 __pycache__/
 
-# environments
+## environments
 env/
 venv/
 .venv/
 
-# environment variables
+## environment variables
 .env
 
 ## Jupyter Notebook stuff
 */.ipynb_checkpoints/*
+
+## Stored Data
+stored_data/*
 
 ## Macbook stuff
 .DS_Store
