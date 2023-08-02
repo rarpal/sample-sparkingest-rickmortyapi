@@ -17,3 +17,7 @@ stored_data/*
 
 ## Macbook stuff
 .DS_Store
+
+## pytest
+conftest.py
+.pytest_cache
