@@ -10,15 +10,18 @@ def test_get_rest_api():
 
 def test_extract_character():
     assert None
+    ## TODO
     # assert existence of columns
     # assert existence of rows
 
 def test_extract_episode():
     assert None
+    ## TODO
     # assert existence of columns
     # assert existence of rows
 
 def test_extract_location():
+    ## TODO
     assert None
     # assert existence of columns
     # assert existence of rows
